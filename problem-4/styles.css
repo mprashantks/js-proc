@@ -16,10 +16,10 @@
 }
 
 .box1, .box2 {
-  border: 2px solid black;
+  border: 2px solid #F1EBEA;
   height: 200px;
   width: 300px;
-  overflow: scroll;
+  overflow-y: scroll;
   padding: 20px 25px;
 }
 
@@ -35,7 +35,7 @@
 
 button {
   border: none;
-  background: linear-gradient(#3366ff, #000099);
+  background: linear-gradient(#BFC9CA, #5F6A6A);
   color: white;
   cursor: pointer;
   padding: 10px;
@@ -46,7 +46,7 @@ button {
 
 button:hover {
   border: none;
-  background: linear-gradient(#000099, #3366ff);
+  background: linear-gradient(#5F6A6A, #BFC9CA);
   color: white;
   padding: 10px;
 }
@@ -58,12 +58,105 @@ ul {
 li {
   padding: 5px 5px;
   cursor: pointer;
+  color: #515A5A;
 }
 
 .liHover {
-  background-color: blue;
+  background-color: #FCF3CF;
 }
 
 .liSelected {
-  background-color: green;
+  background-color: #82E0AA;
+}
+
+/*For webkit supported browsers*/
+::-webkit-scrollbar {
+  width: 16px;
+  background-color: #F3E2E2;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #C4BDBD;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #BDACAC;
+  border:1px solid #333333;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: #A59292;
+  border:1px solid  #333333;
+}
+::-webkit-scrollbar-track {
+  border: 1px #D2B3B3 solid;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 6px #D2B3B3 inset;
+}
+
+/*For mozilla firefox browsers*/
+::-moz-scrollbar {
+  width: 16px;
+  background-color: #F3E2E2;
+}
+::-moz-scrollbar-thumb {
+  background-color: #C4BDBD;
+  border-radius: 10px;
+}
+::-moz-scrollbar-thumb:hover {
+  background-color: #BDACAC;
+  border:1px solid #333333;
+}
+::-moz-scrollbar-thumb:active {
+  background-color: #A59292;
+  border:1px solid  #333333;
+}
+::-moz-scrollbar-track {
+  border: 1px #D2B3B3 solid;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 6px #D2B3B3 inset;
+}
+
+/*For opera and pre-webkit browsers*/
+::-o-scrollbar {
+  width: 16px;
+  background-color: #F3E2E2;
+}
+::-o-scrollbar-thumb {
+  background-color: #C4BDBD;
+  border-radius: 10px;
+}
+::-o-scrollbar-thumb:hover {
+  background-color: #BDACAC;
+  border:1px solid #333333;
+}
+::-o-scrollbar-thumb:active {
+  background-color: #A59292;
+  border:1px solid  #333333;
+}
+::-o-scrollbar-track {
+  border: 1px #D2B3B3 solid;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 6px #D2B3B3 inset;
+}
+
+/*For internet explorer and microsoft edge browsers*/
+::-ms-scrollbar {
+  width: 16px;
+  background-color: #F3E2E2;
+}
+::-ms-scrollbar-thumb {
+  background-color: #C4BDBD;
+  border-radius: 10px;
+}
+::-ms-scrollbar-thumb:hover {
+  background-color: #BDACAC;
+  border:1px solid #333333;
+}
+::-ms-scrollbar-thumb:active {
+  background-color: #A59292;
+  border:1px solid  #333333;
+}
+::-ms-scrollbar-track {
+  border: 1px #D2B3B3 solid;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 6px #D2B3B3 inset;
 }

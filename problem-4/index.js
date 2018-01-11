@@ -20,8 +20,8 @@ $(document).on('click', '#uItemLeft li', function() {
   } else {
     li_items_leftbox.push(text);
   }
-  console.log(li_items_leftbox);
-  console.log(li_items_rightbox);
+  // console.log(li_items_leftbox);
+  // console.log(li_items_rightbox);
 });
 
 
@@ -35,8 +35,8 @@ $(document).on('click', '#uItemRight li', function() {
   } else {
     li_items_rightbox.push(text);
   }
-  console.log(li_items_leftbox);
-  console.log(li_items_rightbox);
+  // console.log(li_items_leftbox);
+  // console.log(li_items_rightbox);
 });
 
 
